@@ -1,66 +1,3 @@
-[Crawl4AI Documentation (v0.5.x)](https://docs.crawl4ai.com/)
-
-  * [ Home ](..)
-  * [ Quick Start ](../core/quickstart/)
-  * [ Search ](#)
-
-
-
-  * [Home](..)
-  * Setup & Installation
-    * [Installation](../core/installation/)
-    * [Docker Deployment](../core/docker-deployment/)
-  * [Quick Start](../core/quickstart/)
-  * Blog & Changelog
-    * Blog Home
-    * [Changelog](https://github.com/unclecode/crawl4ai/blob/main/CHANGELOG.md)
-  * Core
-    * [Command Line Interface](../core/cli/)
-    * [Simple Crawling](../core/simple-crawling/)
-    * [Deep Crawling](../core/deep-crawling/)
-    * [Crawler Result](../core/crawler-result/)
-    * [Browser, Crawler & LLM Config](../core/browser-crawler-config/)
-    * [Markdown Generation](../core/markdown-generation/)
-    * [Fit Markdown](../core/fit-markdown/)
-    * [Page Interaction](../core/page-interaction/)
-    * [Content Selection](../core/content-selection/)
-    * [Cache Modes](../core/cache-modes/)
-    * [Local Files & Raw HTML](../core/local-files/)
-    * [Link & Media](../core/link-media/)
-  * Advanced
-    * [Overview](../advanced/advanced-features/)
-    * [File Downloading](../advanced/file-downloading/)
-    * [Lazy Loading](../advanced/lazy-loading/)
-    * [Hooks & Auth](../advanced/hooks-auth/)
-    * [Proxy & Security](../advanced/proxy-security/)
-    * [Session Management](../advanced/session-management/)
-    * [Multi-URL Crawling](../advanced/multi-url-crawling/)
-    * [Crawl Dispatcher](../advanced/crawl-dispatcher/)
-    * [Identity Based Crawling](../advanced/identity-based-crawling/)
-    * [SSL Certificate](../advanced/ssl-certificate/)
-  * Extraction
-    * [LLM-Free Strategies](../extraction/no-llm-strategies/)
-    * [LLM Strategies](../extraction/llm-strategies/)
-    * [Clustering Strategies](../extraction/clustring-strategies/)
-    * [Chunking](../extraction/chunking/)
-  * API Reference
-    * [AsyncWebCrawler](../api/async-webcrawler/)
-    * [arun()](../api/arun/)
-    * [arun_many()](../api/arun_many/)
-    * [Browser, Crawler & LLM Config](../api/parameters/)
-    * [CrawlResult](../api/crawl-result/)
-    * [Strategies](../api/strategies/)
-
-
-
-  * [Crawl4AI Blog](#crawl4ai-blog)
-  * [Latest Release](#latest-release)
-  * [License Change](#license-change)
-  * [Project History](#project-history)
-  * [Stay Updated](#stay-updated)
-
-
-
 # Crawl4AI Blog
 
 Welcome to the Crawl4AI blog! Here you'll find detailed release notes, technical insights, and updates about the project. Whether you're looking for the latest improvements or want to dive deep into web crawling techniques, this is the place.
@@ -168,11 +105,3 @@ Curious about how Crawl4AI has evolved? Check out our [complete changelog](https
   * Join our community discussions on GitHub
 
 
-
-Site built with [MkDocs](http://www.mkdocs.org) and [Terminal for MkDocs](https://github.com/ntno/mkdocs-terminal). 
-
-##### Search
-
-xClose
-
-Type to start searching

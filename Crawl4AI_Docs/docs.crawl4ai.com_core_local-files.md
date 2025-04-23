@@ -1,67 +1,3 @@
-[Crawl4AI Documentation (v0.5.x)](https://docs.crawl4ai.com/)
-
-  * [ Home ](../..)
-  * [ Quick Start ](../quickstart/)
-  * [ Search ](#)
-
-
-
-  * [Home](../..)
-  * Setup & Installation
-    * [Installation](../installation/)
-    * [Docker Deployment](../docker-deployment/)
-  * [Quick Start](../quickstart/)
-  * Blog & Changelog
-    * [Blog Home](../../blog/)
-    * [Changelog](https://github.com/unclecode/crawl4ai/blob/main/CHANGELOG.md)
-  * Core
-    * [Command Line Interface](../cli/)
-    * [Simple Crawling](../simple-crawling/)
-    * [Deep Crawling](../deep-crawling/)
-    * [Crawler Result](../crawler-result/)
-    * [Browser, Crawler & LLM Config](../browser-crawler-config/)
-    * [Markdown Generation](../markdown-generation/)
-    * [Fit Markdown](../fit-markdown/)
-    * [Page Interaction](../page-interaction/)
-    * [Content Selection](../content-selection/)
-    * [Cache Modes](../cache-modes/)
-    * Local Files & Raw HTML
-    * [Link & Media](../link-media/)
-  * Advanced
-    * [Overview](../../advanced/advanced-features/)
-    * [File Downloading](../../advanced/file-downloading/)
-    * [Lazy Loading](../../advanced/lazy-loading/)
-    * [Hooks & Auth](../../advanced/hooks-auth/)
-    * [Proxy & Security](../../advanced/proxy-security/)
-    * [Session Management](../../advanced/session-management/)
-    * [Multi-URL Crawling](../../advanced/multi-url-crawling/)
-    * [Crawl Dispatcher](../../advanced/crawl-dispatcher/)
-    * [Identity Based Crawling](../../advanced/identity-based-crawling/)
-    * [SSL Certificate](../../advanced/ssl-certificate/)
-  * Extraction
-    * [LLM-Free Strategies](../../extraction/no-llm-strategies/)
-    * [LLM Strategies](../../extraction/llm-strategies/)
-    * [Clustering Strategies](../../extraction/clustring-strategies/)
-    * [Chunking](../../extraction/chunking/)
-  * API Reference
-    * [AsyncWebCrawler](../../api/async-webcrawler/)
-    * [arun()](../../api/arun/)
-    * [arun_many()](../../api/arun_many/)
-    * [Browser, Crawler & LLM Config](../../api/parameters/)
-    * [CrawlResult](../../api/crawl-result/)
-    * [Strategies](../../api/strategies/)
-
-
-
-  * [Prefix-Based Input Handling in Crawl4AI](#prefix-based-input-handling-in-crawl4ai)
-  * [Crawling a Web URL](#crawling-a-web-url)
-  * [Crawling a Local HTML File](#crawling-a-local-html-file)
-  * [Crawling Raw HTML Content](#crawling-raw-html-content)
-  * [Complete Example](#complete-example)
-  * [Conclusion](#conclusion)
-
-
-
 # Prefix-Based Input Handling in Crawl4AI
 
 This guide will walk you through using the Crawl4AI library to crawl web pages, local HTML files, and raw HTML strings. We'll demonstrate these capabilities using a Wikipedia page as an example.
@@ -108,11 +44,3 @@ Below is a comprehensive script that:
 # Conclusion
 
 With the unified `url` parameter and prefix-based handling in **Crawl4AI** , you can seamlessly handle web URLs, local HTML files, and raw HTML content. Use `CrawlerRunConfig` for flexible and consistent configuration in all scenarios.
-
-Site built with [MkDocs](http://www.mkdocs.org) and [Terminal for MkDocs](https://github.com/ntno/mkdocs-terminal). 
-
-##### Search
-
-xClose
-
-Type to start searching

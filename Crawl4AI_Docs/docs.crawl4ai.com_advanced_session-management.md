@@ -1,67 +1,3 @@
-[Crawl4AI Documentation (v0.5.x)](https://docs.crawl4ai.com/)
-
-  * [ Home ](../..)
-  * [ Quick Start ](../../core/quickstart/)
-  * [ Search ](#)
-
-
-
-  * [Home](../..)
-  * Setup & Installation
-    * [Installation](../../core/installation/)
-    * [Docker Deployment](../../core/docker-deployment/)
-  * [Quick Start](../../core/quickstart/)
-  * Blog & Changelog
-    * [Blog Home](../../blog/)
-    * [Changelog](https://github.com/unclecode/crawl4ai/blob/main/CHANGELOG.md)
-  * Core
-    * [Command Line Interface](../../core/cli/)
-    * [Simple Crawling](../../core/simple-crawling/)
-    * [Deep Crawling](../../core/deep-crawling/)
-    * [Crawler Result](../../core/crawler-result/)
-    * [Browser, Crawler & LLM Config](../../core/browser-crawler-config/)
-    * [Markdown Generation](../../core/markdown-generation/)
-    * [Fit Markdown](../../core/fit-markdown/)
-    * [Page Interaction](../../core/page-interaction/)
-    * [Content Selection](../../core/content-selection/)
-    * [Cache Modes](../../core/cache-modes/)
-    * [Local Files & Raw HTML](../../core/local-files/)
-    * [Link & Media](../../core/link-media/)
-  * Advanced
-    * [Overview](../advanced-features/)
-    * [File Downloading](../file-downloading/)
-    * [Lazy Loading](../lazy-loading/)
-    * [Hooks & Auth](../hooks-auth/)
-    * [Proxy & Security](../proxy-security/)
-    * Session Management
-    * [Multi-URL Crawling](../multi-url-crawling/)
-    * [Crawl Dispatcher](../crawl-dispatcher/)
-    * [Identity Based Crawling](../identity-based-crawling/)
-    * [SSL Certificate](../ssl-certificate/)
-  * Extraction
-    * [LLM-Free Strategies](../../extraction/no-llm-strategies/)
-    * [LLM Strategies](../../extraction/llm-strategies/)
-    * [Clustering Strategies](../../extraction/clustring-strategies/)
-    * [Chunking](../../extraction/chunking/)
-  * API Reference
-    * [AsyncWebCrawler](../../api/async-webcrawler/)
-    * [arun()](../../api/arun/)
-    * [arun_many()](../../api/arun_many/)
-    * [Browser, Crawler & LLM Config](../../api/parameters/)
-    * [CrawlResult](../../api/crawl-result/)
-    * [Strategies](../../api/strategies/)
-
-
-
-  * [Session Management](#session-management)
-  * [Basic Session Usage](#basic-session-usage)
-  * [Dynamic Content with Sessions](#dynamic-content-with-sessions)
-  * [Example 1: Basic Session-Based Crawling](#example-1-basic-session-based-crawling)
-  * [Advanced Technique 1: Custom Execution Hooks](#advanced-technique-1-custom-execution-hooks)
-  * [Advanced Technique 2: Integrated JavaScript Execution and Waiting](#advanced-technique-2-integrated-javascript-execution-and-waiting)
-
-
-
 # Session Management
 
 Session management in Crawl4AI is a powerful feature that allows you to maintain state across multiple requests, making it particularly suitable for handling complex multi-step crawling tasks. It enables you to reuse the same browser tab (or page object) across sequential actions and crawls, which is beneficial for:
@@ -130,11 +66,3 @@ Combine JavaScript execution and waiting logic for concise handling of dynamic c
 4. **Multi-step Processes** : Complete workflows that span multiple actions.
 
 5. **Dynamic Content Navigation** : Handle JavaScript-rendered or event-triggered content.
-
-Site built with [MkDocs](http://www.mkdocs.org) and [Terminal for MkDocs](https://github.com/ntno/mkdocs-terminal). 
-
-##### Search
-
-xClose
-
-Type to start searching

@@ -1,67 +1,3 @@
-[Crawl4AI Documentation (v0.5.x)](https://docs.crawl4ai.com/)
-
-  * [ Home ](../..)
-  * [ Quick Start ](../../core/quickstart/)
-  * [ Search ](#)
-
-
-
-  * [Home](../..)
-  * Setup & Installation
-    * [Installation](../../core/installation/)
-    * [Docker Deployment](../../core/docker-deployment/)
-  * [Quick Start](../../core/quickstart/)
-  * Blog & Changelog
-    * [Blog Home](../../blog/)
-    * [Changelog](https://github.com/unclecode/crawl4ai/blob/main/CHANGELOG.md)
-  * Core
-    * [Command Line Interface](../../core/cli/)
-    * [Simple Crawling](../../core/simple-crawling/)
-    * [Deep Crawling](../../core/deep-crawling/)
-    * [Crawler Result](../../core/crawler-result/)
-    * [Browser, Crawler & LLM Config](../../core/browser-crawler-config/)
-    * [Markdown Generation](../../core/markdown-generation/)
-    * [Fit Markdown](../../core/fit-markdown/)
-    * [Page Interaction](../../core/page-interaction/)
-    * [Content Selection](../../core/content-selection/)
-    * [Cache Modes](../../core/cache-modes/)
-    * [Local Files & Raw HTML](../../core/local-files/)
-    * [Link & Media](../../core/link-media/)
-  * Advanced
-    * [Overview](../../advanced/advanced-features/)
-    * [File Downloading](../../advanced/file-downloading/)
-    * [Lazy Loading](../../advanced/lazy-loading/)
-    * [Hooks & Auth](../../advanced/hooks-auth/)
-    * [Proxy & Security](../../advanced/proxy-security/)
-    * [Session Management](../../advanced/session-management/)
-    * [Multi-URL Crawling](../../advanced/multi-url-crawling/)
-    * [Crawl Dispatcher](../../advanced/crawl-dispatcher/)
-    * [Identity Based Crawling](../../advanced/identity-based-crawling/)
-    * [SSL Certificate](../../advanced/ssl-certificate/)
-  * Extraction
-    * [LLM-Free Strategies](../../extraction/no-llm-strategies/)
-    * [LLM Strategies](../../extraction/llm-strategies/)
-    * [Clustering Strategies](../../extraction/clustring-strategies/)
-    * [Chunking](../../extraction/chunking/)
-  * API Reference
-    * [AsyncWebCrawler](../async-webcrawler/)
-    * [arun()](../arun/)
-    * arun_many()
-    * [Browser, Crawler & LLM Config](../parameters/)
-    * [CrawlResult](../crawl-result/)
-    * [Strategies](../strategies/)
-
-
-
-  * [arun_many(...) Reference](#arun_many-reference)
-  * [Function Signature](#function-signature)
-  * [Differences from arun()](#differences-from-arun)
-  * [Dispatcher Reference](#dispatcher-reference)
-  * [Common Pitfalls](#common-pitfalls)
-  * [Conclusion](#conclusion)
-
-
-
 # `arun_many(...)` Reference
 
 > **Note** : This function is very similar to [`arun()`](../arun/) but focused on **concurrent** or **batch** crawling. If you’re unfamiliar with `arun()` usage, please read that doc first, then review this for differences.
@@ -148,11 +84,3 @@ For advanced usage or custom settings, see [Multi-URL Crawling with Dispatchers]
 ## Conclusion
 
 Use `arun_many()` when you want to **crawl multiple URLs** simultaneously or in controlled parallel tasks. If you need advanced concurrency features (like memory-based adaptive throttling or complex rate-limiting), provide a **dispatcher**. Each result is a standard `CrawlResult`, possibly augmented with concurrency stats (`dispatch_result`) for deeper inspection. For more details on concurrency logic and dispatchers, see the [Advanced Multi-URL Crawling](../../advanced/multi-url-crawling/) docs.
-
-Site built with [MkDocs](http://www.mkdocs.org) and [Terminal for MkDocs](https://github.com/ntno/mkdocs-terminal). 
-
-##### Search
-
-xClose
-
-Type to start searching

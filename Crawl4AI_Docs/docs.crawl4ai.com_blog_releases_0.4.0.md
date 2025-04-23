@@ -1,67 +1,3 @@
-[Crawl4AI Documentation (v0.5.x)](https://docs.crawl4ai.com/)
-
-  * [ Home ](../../..)
-  * [ Quick Start ](../../../core/quickstart/)
-  * [ Search ](#)
-
-
-
-  * [Home](../../..)
-  * Setup & Installation
-    * [Installation](../../../core/installation/)
-    * [Docker Deployment](../../../core/docker-deployment/)
-  * [Quick Start](../../../core/quickstart/)
-  * Blog & Changelog
-    * [Blog Home](../../)
-    * [Changelog](https://github.com/unclecode/crawl4ai/blob/main/CHANGELOG.md)
-  * Core
-    * [Command Line Interface](../../../core/cli/)
-    * [Simple Crawling](../../../core/simple-crawling/)
-    * [Deep Crawling](../../../core/deep-crawling/)
-    * [Crawler Result](../../../core/crawler-result/)
-    * [Browser, Crawler & LLM Config](../../../core/browser-crawler-config/)
-    * [Markdown Generation](../../../core/markdown-generation/)
-    * [Fit Markdown](../../../core/fit-markdown/)
-    * [Page Interaction](../../../core/page-interaction/)
-    * [Content Selection](../../../core/content-selection/)
-    * [Cache Modes](../../../core/cache-modes/)
-    * [Local Files & Raw HTML](../../../core/local-files/)
-    * [Link & Media](../../../core/link-media/)
-  * Advanced
-    * [Overview](../../../advanced/advanced-features/)
-    * [File Downloading](../../../advanced/file-downloading/)
-    * [Lazy Loading](../../../advanced/lazy-loading/)
-    * [Hooks & Auth](../../../advanced/hooks-auth/)
-    * [Proxy & Security](../../../advanced/proxy-security/)
-    * [Session Management](../../../advanced/session-management/)
-    * [Multi-URL Crawling](../../../advanced/multi-url-crawling/)
-    * [Crawl Dispatcher](../../../advanced/crawl-dispatcher/)
-    * [Identity Based Crawling](../../../advanced/identity-based-crawling/)
-    * [SSL Certificate](../../../advanced/ssl-certificate/)
-  * Extraction
-    * [LLM-Free Strategies](../../../extraction/no-llm-strategies/)
-    * [LLM Strategies](../../../extraction/llm-strategies/)
-    * [Clustering Strategies](../../../extraction/clustring-strategies/)
-    * [Chunking](../../../extraction/chunking/)
-  * API Reference
-    * [AsyncWebCrawler](../../../api/async-webcrawler/)
-    * [arun()](../../../api/arun/)
-    * [arun_many()](../../../api/arun_many/)
-    * [Browser, Crawler & LLM Config](../../../api/parameters/)
-    * [CrawlResult](../../../api/crawl-result/)
-    * [Strategies](../../../api/strategies/)
-
-
-
-  * [Release Summary for Version 0.4.0 (December 1, 2024)](#release-summary-for-version-040-december-1-2024)
-  * [Overview](#overview)
-  * [Major Features and Enhancements](#major-features-and-enhancements)
-  * [Revised Change Logs for Version 0.4.0](#revised-change-logs-for-version-040)
-  * [Experimental Features](#experimental-features)
-  * [Conclusion](#conclusion)
-
-
-
 # Release Summary for Version 0.4.0 (December 1, 2024)
 
 ## Overview
@@ -158,11 +94,3 @@ The 0.4.0 release introduces significant improvements to content filtering, mult
 This release significantly enhances the content extraction capabilities of Crawl4ai with the introduction of the PruningContentFilter, improved supervised filtering with BM25ContentFilter, and robust multi-threaded handling. Additionally, the user-agent generator provides much-needed versatility, resolving compatibility issues faced by many users.
 
 Users are encouraged to experiment with the new content filtering methods to determine which best suits their needs.
-
-Site built with [MkDocs](http://www.mkdocs.org) and [Terminal for MkDocs](https://github.com/ntno/mkdocs-terminal). 
-
-##### Search
-
-xClose
-
-Type to start searching

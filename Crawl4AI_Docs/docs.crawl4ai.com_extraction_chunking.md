@@ -1,65 +1,3 @@
-[Crawl4AI Documentation (v0.5.x)](https://docs.crawl4ai.com/)
-
-  * [ Home ](../..)
-  * [ Quick Start ](../../core/quickstart/)
-  * [ Search ](#)
-
-
-
-  * [Home](../..)
-  * Setup & Installation
-    * [Installation](../../core/installation/)
-    * [Docker Deployment](../../core/docker-deployment/)
-  * [Quick Start](../../core/quickstart/)
-  * Blog & Changelog
-    * [Blog Home](../../blog/)
-    * [Changelog](https://github.com/unclecode/crawl4ai/blob/main/CHANGELOG.md)
-  * Core
-    * [Command Line Interface](../../core/cli/)
-    * [Simple Crawling](../../core/simple-crawling/)
-    * [Deep Crawling](../../core/deep-crawling/)
-    * [Crawler Result](../../core/crawler-result/)
-    * [Browser, Crawler & LLM Config](../../core/browser-crawler-config/)
-    * [Markdown Generation](../../core/markdown-generation/)
-    * [Fit Markdown](../../core/fit-markdown/)
-    * [Page Interaction](../../core/page-interaction/)
-    * [Content Selection](../../core/content-selection/)
-    * [Cache Modes](../../core/cache-modes/)
-    * [Local Files & Raw HTML](../../core/local-files/)
-    * [Link & Media](../../core/link-media/)
-  * Advanced
-    * [Overview](../../advanced/advanced-features/)
-    * [File Downloading](../../advanced/file-downloading/)
-    * [Lazy Loading](../../advanced/lazy-loading/)
-    * [Hooks & Auth](../../advanced/hooks-auth/)
-    * [Proxy & Security](../../advanced/proxy-security/)
-    * [Session Management](../../advanced/session-management/)
-    * [Multi-URL Crawling](../../advanced/multi-url-crawling/)
-    * [Crawl Dispatcher](../../advanced/crawl-dispatcher/)
-    * [Identity Based Crawling](../../advanced/identity-based-crawling/)
-    * [SSL Certificate](../../advanced/ssl-certificate/)
-  * Extraction
-    * [LLM-Free Strategies](../no-llm-strategies/)
-    * [LLM Strategies](../llm-strategies/)
-    * [Clustering Strategies](../clustring-strategies/)
-    * Chunking
-  * API Reference
-    * [AsyncWebCrawler](../../api/async-webcrawler/)
-    * [arun()](../../api/arun/)
-    * [arun_many()](../../api/arun_many/)
-    * [Browser, Crawler & LLM Config](../../api/parameters/)
-    * [CrawlResult](../../api/crawl-result/)
-    * [Strategies](../../api/strategies/)
-
-
-
-  * [Chunking Strategies](#chunking-strategies)
-  * [Why Use Chunking?](#why-use-chunking)
-  * [Methods of Chunking](#methods-of-chunking)
-  * [Combining Chunking with Cosine Similarity](#combining-chunking-with-cosine-similarity)
-
-
-
 # Chunking Strategies
 
 Chunking strategies are critical for dividing large texts into manageable parts, enabling effective content processing and extraction. These strategies are foundational in cosine similarity-based extraction techniques, which allow users to retrieve only the most relevant chunks of content for a given query. Additionally, they facilitate direct integration into RAG (Retrieval-Augmented Generation) systems for structured and scalable workflows.
@@ -129,11 +67,3 @@ To enhance the relevance of extracted content, chunking strategies can be paired
 ```
 `from sklearn.feature_extraction.text import TfidfVectorizer from sklearn.metrics.pairwise import cosine_similarity class CosineSimilarityExtractor: def __init__(self, query): self.query = query self.vectorizer = TfidfVectorizer() def find_relevant_chunks(self, chunks): vectors = self.vectorizer.fit_transform([self.query] + chunks) similarities = cosine_similarity(vectors[0:1], vectors[1:]).flatten() return [(chunks[i], similarities[i]) for i in range(len(chunks))] # Example Workflow text = """This is a sample document. It has multiple sentences. We are testing chunking and similarity.""" chunker = SlidingWindowChunking(window_size=5, step=3) chunks = chunker.chunk(text) query = "testing chunking" extractor = CosineSimilarityExtractor(query) relevant_chunks = extractor.find_relevant_chunks(chunks) print(relevant_chunks) `
 ```
-
-Site built with [MkDocs](http://www.mkdocs.org) and [Terminal for MkDocs](https://github.com/ntno/mkdocs-terminal). 
-
-##### Search
-
-xClose
-
-Type to start searching

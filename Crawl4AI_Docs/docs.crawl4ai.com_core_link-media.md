@@ -1,67 +1,3 @@
-[Crawl4AI Documentation (v0.5.x)](https://docs.crawl4ai.com/)
-
-  * [ Home ](../..)
-  * [ Quick Start ](../quickstart/)
-  * [ Search ](#)
-
-
-
-  * [Home](../..)
-  * Setup & Installation
-    * [Installation](../installation/)
-    * [Docker Deployment](../docker-deployment/)
-  * [Quick Start](../quickstart/)
-  * Blog & Changelog
-    * [Blog Home](../../blog/)
-    * [Changelog](https://github.com/unclecode/crawl4ai/blob/main/CHANGELOG.md)
-  * Core
-    * [Command Line Interface](../cli/)
-    * [Simple Crawling](../simple-crawling/)
-    * [Deep Crawling](../deep-crawling/)
-    * [Crawler Result](../crawler-result/)
-    * [Browser, Crawler & LLM Config](../browser-crawler-config/)
-    * [Markdown Generation](../markdown-generation/)
-    * [Fit Markdown](../fit-markdown/)
-    * [Page Interaction](../page-interaction/)
-    * [Content Selection](../content-selection/)
-    * [Cache Modes](../cache-modes/)
-    * [Local Files & Raw HTML](../local-files/)
-    * Link & Media
-  * Advanced
-    * [Overview](../../advanced/advanced-features/)
-    * [File Downloading](../../advanced/file-downloading/)
-    * [Lazy Loading](../../advanced/lazy-loading/)
-    * [Hooks & Auth](../../advanced/hooks-auth/)
-    * [Proxy & Security](../../advanced/proxy-security/)
-    * [Session Management](../../advanced/session-management/)
-    * [Multi-URL Crawling](../../advanced/multi-url-crawling/)
-    * [Crawl Dispatcher](../../advanced/crawl-dispatcher/)
-    * [Identity Based Crawling](../../advanced/identity-based-crawling/)
-    * [SSL Certificate](../../advanced/ssl-certificate/)
-  * Extraction
-    * [LLM-Free Strategies](../../extraction/no-llm-strategies/)
-    * [LLM Strategies](../../extraction/llm-strategies/)
-    * [Clustering Strategies](../../extraction/clustring-strategies/)
-    * [Chunking](../../extraction/chunking/)
-  * API Reference
-    * [AsyncWebCrawler](../../api/async-webcrawler/)
-    * [arun()](../../api/arun/)
-    * [arun_many()](../../api/arun_many/)
-    * [Browser, Crawler & LLM Config](../../api/parameters/)
-    * [CrawlResult](../../api/crawl-result/)
-    * [Strategies](../../api/strategies/)
-
-
-
-  * [Link & Media](#link-media)
-  * [1. Link Extraction](#1-link-extraction)
-  * [2. Domain Filtering](#2-domain-filtering)
-  * [3. Media Extraction](#3-media-extraction)
-  * [4. Putting It All Together: Link & Media Filtering](#4-putting-it-all-together-link-media-filtering)
-  * [5. Common Pitfalls & Tips](#5-common-pitfalls-tips)
-
-
-
 # Link & Media
 
 In this tutorial, you’ll learn how to:
@@ -238,11 +174,3 @@ Here’s a combined example demonstrating how to filter out external links, skip
 
 
 The table detection algorithm scores tables based on features like consistent columns, presence of headers, text density, and more. Tables scoring above the threshold are considered data tables worth extracting.
-
-Site built with [MkDocs](http://www.mkdocs.org) and [Terminal for MkDocs](https://github.com/ntno/mkdocs-terminal). 
-
-##### Search
-
-xClose
-
-Type to start searching

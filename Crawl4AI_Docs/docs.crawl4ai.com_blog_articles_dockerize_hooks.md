@@ -1,62 +1,3 @@
-[Crawl4AI Documentation (v0.5.x)](https://docs.crawl4ai.com/)
-
-  * [ Home ](../../..)
-  * [ Quick Start ](../../../core/quickstart/)
-  * [ Search ](#)
-
-
-
-  * [Home](../../..)
-  * Setup & Installation
-    * [Installation](../../../core/installation/)
-    * [Docker Deployment](../../../core/docker-deployment/)
-  * [Quick Start](../../../core/quickstart/)
-  * Blog & Changelog
-    * [Blog Home](../../)
-    * [Changelog](https://github.com/unclecode/crawl4ai/blob/main/CHANGELOG.md)
-  * Core
-    * [Command Line Interface](../../../core/cli/)
-    * [Simple Crawling](../../../core/simple-crawling/)
-    * [Deep Crawling](../../../core/deep-crawling/)
-    * [Crawler Result](../../../core/crawler-result/)
-    * [Browser, Crawler & LLM Config](../../../core/browser-crawler-config/)
-    * [Markdown Generation](../../../core/markdown-generation/)
-    * [Fit Markdown](../../../core/fit-markdown/)
-    * [Page Interaction](../../../core/page-interaction/)
-    * [Content Selection](../../../core/content-selection/)
-    * [Cache Modes](../../../core/cache-modes/)
-    * [Local Files & Raw HTML](../../../core/local-files/)
-    * [Link & Media](../../../core/link-media/)
-  * Advanced
-    * [Overview](../../../advanced/advanced-features/)
-    * [File Downloading](../../../advanced/file-downloading/)
-    * [Lazy Loading](../../../advanced/lazy-loading/)
-    * [Hooks & Auth](../../../advanced/hooks-auth/)
-    * [Proxy & Security](../../../advanced/proxy-security/)
-    * [Session Management](../../../advanced/session-management/)
-    * [Multi-URL Crawling](../../../advanced/multi-url-crawling/)
-    * [Crawl Dispatcher](../../../advanced/crawl-dispatcher/)
-    * [Identity Based Crawling](../../../advanced/identity-based-crawling/)
-    * [SSL Certificate](../../../advanced/ssl-certificate/)
-  * Extraction
-    * [LLM-Free Strategies](../../../extraction/no-llm-strategies/)
-    * [LLM Strategies](../../../extraction/llm-strategies/)
-    * [Clustering Strategies](../../../extraction/clustring-strategies/)
-    * [Chunking](../../../extraction/chunking/)
-  * API Reference
-    * [AsyncWebCrawler](../../../api/async-webcrawler/)
-    * [arun()](../../../api/arun/)
-    * [arun_many()](../../../api/arun_many/)
-    * [Browser, Crawler & LLM Config](../../../api/parameters/)
-    * [CrawlResult](../../../api/crawl-result/)
-    * [Strategies](../../../api/strategies/)
-
-
-
-  * [Introducing Event Streams and Interactive Hooks in Crawl4AI](#introducing-event-streams-and-interactive-hooks-in-crawl4ai)
-
-
-
 ## Introducing Event Streams and Interactive Hooks in Crawl4AI
 
 ![event-driven-crawl](https://res.cloudinary.com/kidocode/image/upload/t_400x400/v1734344008/15bb8bbb-83ac-43ac-962d-3feb3e0c3bbf_2_tjmr4n.webp)
@@ -86,11 +27,3 @@ With the event stream in place, you can send a follow-up request back to the ser
 I’m currently exploring the best APIs, technologies, and patterns to make this vision a reality. My goal is to deliver a seamless developer experience—one that integrates with existing Crawl4AI workflows while offering new flexibility and power.
 
 Stay tuned for more updates as I continue building this feature out. In the meantime, I’d love to hear any feedback or suggestions you might have to help shape this interactive, event-driven future of web crawling with Crawl4AI.
-
-Site built with [MkDocs](http://www.mkdocs.org) and [Terminal for MkDocs](https://github.com/ntno/mkdocs-terminal). 
-
-##### Search
-
-xClose
-
-Type to start searching

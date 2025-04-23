@@ -1,65 +1,3 @@
-[Crawl4AI Documentation (v0.5.x)](https://docs.crawl4ai.com/)
-
-  * [ Home ](../..)
-  * [ Quick Start ](../../core/quickstart/)
-  * [ Search ](#)
-
-
-
-  * [Home](../..)
-  * Setup & Installation
-    * [Installation](../../core/installation/)
-    * [Docker Deployment](../../core/docker-deployment/)
-  * [Quick Start](../../core/quickstart/)
-  * Blog & Changelog
-    * [Blog Home](../../blog/)
-    * [Changelog](https://github.com/unclecode/crawl4ai/blob/main/CHANGELOG.md)
-  * Core
-    * [Command Line Interface](../../core/cli/)
-    * [Simple Crawling](../../core/simple-crawling/)
-    * [Deep Crawling](../../core/deep-crawling/)
-    * [Crawler Result](../../core/crawler-result/)
-    * [Browser, Crawler & LLM Config](../../core/browser-crawler-config/)
-    * [Markdown Generation](../../core/markdown-generation/)
-    * [Fit Markdown](../../core/fit-markdown/)
-    * [Page Interaction](../../core/page-interaction/)
-    * [Content Selection](../../core/content-selection/)
-    * [Cache Modes](../../core/cache-modes/)
-    * [Local Files & Raw HTML](../../core/local-files/)
-    * [Link & Media](../../core/link-media/)
-  * Advanced
-    * [Overview](../advanced-features/)
-    * [File Downloading](../file-downloading/)
-    * Lazy Loading
-    * [Hooks & Auth](../hooks-auth/)
-    * [Proxy & Security](../proxy-security/)
-    * [Session Management](../session-management/)
-    * [Multi-URL Crawling](../multi-url-crawling/)
-    * [Crawl Dispatcher](../crawl-dispatcher/)
-    * [Identity Based Crawling](../identity-based-crawling/)
-    * [SSL Certificate](../ssl-certificate/)
-  * Extraction
-    * [LLM-Free Strategies](../../extraction/no-llm-strategies/)
-    * [LLM Strategies](../../extraction/llm-strategies/)
-    * [Clustering Strategies](../../extraction/clustring-strategies/)
-    * [Chunking](../../extraction/chunking/)
-  * API Reference
-    * [AsyncWebCrawler](../../api/async-webcrawler/)
-    * [arun()](../../api/arun/)
-    * [arun_many()](../../api/arun_many/)
-    * [Browser, Crawler & LLM Config](../../api/parameters/)
-    * [CrawlResult](../../api/crawl-result/)
-    * [Strategies](../../api/strategies/)
-
-
-
-  * [Handling Lazy-Loaded Images](#handling-lazy-loaded-images)
-  * [Example: Ensuring Lazy Images Appear](#example-ensuring-lazy-images-appear)
-  * [Combining with Other Link & Media Filters](#combining-with-other-link-media-filters)
-  * [Tips & Troubleshooting](#tips-troubleshooting)
-
-
-
 ## Handling Lazy-Loaded Images
 
 Many websites now load images **lazily** as you scroll. If you need to ensure they appear in your final crawl (and in `result.media`), consider:
@@ -110,11 +48,3 @@ This approach ensures you see **all** images from the main domain while ignoring
 4. **Caching** - If `cache_mode` is enabled, repeated crawls might skip some network fetches. If you suspect caching is missing new images, set `cache_mode=CacheMode.BYPASS` for fresh fetches.
 
 With **lazy-loading** support, **wait_for_images** , and **scan_full_page** settings, you can capture the entire gallery or feed of images you expect—even if the site only loads them as the user scrolls. Combine these with the standard media filtering and domain exclusion for a complete link & media handling strategy.
-
-Site built with [MkDocs](http://www.mkdocs.org) and [Terminal for MkDocs](https://github.com/ntno/mkdocs-terminal). 
-
-##### Search
-
-xClose
-
-Type to start searching
